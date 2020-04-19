@@ -1,8 +1,8 @@
-# Data Modeling with Apache Cassandra
+# NoSQl Data Modeling (with Apache Cassandra)
 
 ## Purpose
 
-The purpose of this project is to create an Apache Cassandra database for a ficticious startup called Sparkify to query on song play data. The raw data is in a directory of CSV files, and we will build a ETL pipeline to transform the raw data into the Apache Cassandra database.
+The purpose of this project is to create an Apache Cassandra database for a ficticious music startup to query on song play data. The raw data is in a directory of CSV files, and we will build a ETL pipeline to transform the raw data into the Apache Cassandra database.
 
 ## Dataset
 There is one dataset called event_data which is in a directory of CSV files partitioned by date. The filepaths are given as event_data/<yyyy>-<mm>-<dd>-events.csv where <yyyy> indicates the year, <mm> indicates the month and <dd> indicates the year. The fields of of event_data are:
